@@ -1,0 +1,37 @@
+<html>
+    <body>
+        <script>
+          
+            /*
+            function Pessoa(){
+                //this= isso  {é uma variável}
+
+                this.nome ="Guilherme";
+
+            }
+             var pessoa =new Pessoa();
+
+             alert(pessoa.nome);*/
+
+             //praticando funcões instânciais
+
+             function Pessoa(){
+                this.nome = "Guilherme";
+                this.idade = 27;
+                //pode ter tb funções:
+                this.printNome = function(numero){
+                    alert(this.numero);
+                }
+             }
+
+             var pessoa = new Pessoa();
+             var pessoa2 = new Pessoa();
+
+             pessoa_2.nome= "joao";
+
+             pessoa.printNome(pessoa_2.nome);
+
+             pessoa.printNome(10);
+        </script>
+    </body>
+</html>

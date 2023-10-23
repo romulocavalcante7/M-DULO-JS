@@ -1,0 +1,58 @@
+<html>
+    <body>
+        <!--- manipulando css através do id
+        <div id="box"></div>-->
+
+
+        <!--Manipulando o css através de classes-->
+
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+    </body>
+    <script>
+        //manipulando css através do id
+        /*
+        var el = document.getElementById('box');
+        el.style.width = 100;
+        el.style.height = 100;
+        el.style.backgroundColor = 'red';
+        el.style.marginLeft = 200;
+        */
+
+        //magin-left
+        //marginLeft
+
+        //background-color
+        //backgroundColor
+
+        //fim de id
+
+        //manipulando css através de classes
+
+        var elementos = document.getElementbrclassName('box');
+
+
+        /*
+        var el = elementos [0]; 
+
+        el.style.width = 100;
+        el.style.heigth = 100;
+        el.style.backgroundColor = 'grenn';
+        el.style.magrinLeft = 200;
+        */
+        for(var i = 0; i < elementos.length; i++){
+            var el = elementos[i];
+
+            el.style.width = 100;
+            el.style.heigth = 100;
+            el.style.backgroundColor = 'grenn';
+            el.style.magrinLeft = 200;
+        }
+
+    </script>
+</html>
